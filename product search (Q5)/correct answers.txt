@@ -1,0 +1,9 @@
+The correct answers are:
+
+b. On the first component render, the value of the suggestions variable will be [].
+
+c. If the requestSuggestions function is async and does not call the setSuggestions function immediately, it will throw an error.
+
+e. If the requestSuggestions function calls setSuggestions with two items, they will be shown in the datalist.
+
+f. Calling setName("10") will make the input field have 10 as its value.

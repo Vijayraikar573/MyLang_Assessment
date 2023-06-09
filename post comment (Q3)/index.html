@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comments Page</title>
+  <style>
+    /* Styling for the comment list */
+    #commentList {
+      list-style-type: none;
+      padding: 0;
+    }
+    #commentList li {
+      margin-bottom: 10px;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    /* Styling for the comment form */
+    form {
+      margin-top: 20px;
+    }
+    #comment {
+      width: 300px;
+      padding: 5px;
+    }
+    #postComment {
+      margin-top: 5px;
+      padding: 5px 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+  <script src="comment.js"></script>
+</head>
+<body>
+  <ul id="commentList">
+    <!-- Existing comments can be added here -->
+  </ul>
+  <form>
+    <input type="text" id="comment" />
+    <input type="button" id="postComment" value="Post" />
+  </form>
+</body>
+</html>
